@@ -1,0 +1,112 @@
+body {
+    background-color: #F3EAE3;
+    margin: 0;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100&family=Montserrat:wght@100&display=swap');
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+}
+
+
+.container {
+
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+
+}
+
+#card {
+    border-radius: 0px 20px 20px 0px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+
+    flex-direction: column;
+    text-align: left;
+
+    float: right;
+
+
+}
+
+#productImage {
+    border-radius: 20px 0px 0px 20px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+}
+
+#card> :nth-child(1) {
+    font-size: 8pt;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-family: 'Montserrat';
+}
+
+#card> :nth-child(2) {
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+
+#card> :nth-child(3) {
+    line-height: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin: 0;
+}
+
+#price {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+    top: 15px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    color: #3D8168;
+}
+
+#price>:nth-child(1) {
+    font-size: 20pt;
+    margin-right: 15px;
+    margin: 0;
+}
+
+#price>:nth-child(2) {
+    font-size: 10pt;
+    margin-left: 15px;
+}
+
+#AddCard {
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: #3D8168;
+    top: 10%;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+svg {
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+}
